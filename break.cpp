@@ -15,5 +15,8 @@ int main()
 {
     Break obj;     // Object creation
     obj.display();    // Function call
+    cout<<endl;
+    cout<<"Name: Sahibdeep Kaur"<<endl;
+    cout<<"URN: 2514174"<<endl;
     return 0;
 }

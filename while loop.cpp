@@ -1,22 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Student{
-    public:
-    int urn,crn;
-    string name;
-    void display(int n){
-        int i=1;
-    while(i<=n){
-        cout<<"Name: "<<name<<endl<<"URN: "<<urn<<endl<<"CRN: "<<crn<<endl;
-        i++;
-    }  
+
+class Pattern
+{
+public:
+    void printPattern()
+    {
+        for(int i = 1; i <= 5; i++)
+        {
+            for(int j = 1; j <= i; j++)
+            {
+                cout << j << " ";
+            }
+            cout << endl;
+        }
     }
 };
-int main(){
-    Student s;
-    s.name="Sahibdeep Kaur";
-    s.urn=2514174;
-    s.crn=2515249;
-    s.display(2);
+
+int main()
+{
+    Pattern p;      // Object
+    p.printPattern(); // Function call
+    cout<<"Name: Sahibdeep Kaur"<<endl;
+    cout<<"URN: 2514174"<<endl;
     return 0;
 }

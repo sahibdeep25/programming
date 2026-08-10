@@ -14,5 +14,7 @@ int main(){
     cout<<"Enter marks:";
     cin>>s1.marks;
     s1.result(s1.marks);
+    cout<<"Name: Sahibdeep Kaur"<<endl;
+    cout<<"URN: 2514174"<<endl;
     return 0;
 }
