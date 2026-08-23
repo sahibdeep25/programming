@@ -17,7 +17,7 @@ class Student{
     }
 };
 int main(){
-    Student s1("Sahibdeep Kaur","CSE",2514174);
+    Student s1("Sahibdeep Kaur","CSE",2514174);   
     Student s2("Ravneet Kaur","CSE",2514168);
     Student s3("Sachkirat Kaur","CSE",2514171);
     s1.display();

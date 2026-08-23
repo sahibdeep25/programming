@@ -17,7 +17,7 @@ public:
         cout << "URN: " << urn << endl;
     }
 };
-int main(){
+int main(){ 
     Student s1;      // Default constructor is called automatically
     s1.display();
     return 0;
