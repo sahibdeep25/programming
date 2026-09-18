@@ -35,7 +35,7 @@ public:
 };
 int main(){
     SportsCar s;
-    cout<<"MULTILEVEL INHERITANCE\n";
+    cout<<"\nMULTILEVEL INHERITANCE\n";
     s.getBrand();
     s.getModel();
     s.getSpeed();

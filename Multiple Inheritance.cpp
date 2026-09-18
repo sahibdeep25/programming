@@ -34,6 +34,7 @@ class Laptop:public LaptopInfo,public Memory{
 };
 int main(){
     Laptop l;
+    cout<<"\nMULTIPLE INHERITANCE\n";
     l.getLaptopInfo();
     l.getMemory();
     l.getDetails();
