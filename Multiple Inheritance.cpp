@@ -38,6 +38,6 @@ int main(){
     l.getLaptopInfo();
     l.getMemory();
     l.getDetails();
-    cout<<"\nSahibdeep Kaur(2514174)";
+    cout<<"\nSagar Saini(2514172)";
     return 0;
 }

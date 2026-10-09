@@ -1,48 +1,31 @@
 #include <iostream>
 using namespace std;
-
-class Employee
-{
+class Employee{
 public:
-    void display()
-    {
+    void display(){
         cout<<"Employee ID: 101"<<endl;
         cout<<"Employee Name: Sahibdeep"<<endl;
     }
 };
-
-class Manager
-{
+class Manager{
 public:
-    void display()
-    {
+    void display(){
         cout<<"Manager ID: 102"<<endl;
         cout<<"Manager Name: Ravneet"<<endl;
     }
 };
-
-class TeamLeader: public Employee, public Manager
-{
+class TeamLeader: public Employee, public Manager{
 public:
-    void show()
-    {
+    void show(){
         cout<<"Team Leader Details"<<endl;
     }
 };
-
-int main()
-{
+int main(){
     TeamLeader obj;
-
     obj.show();
-
-    // obj.display();  // Causes ambiguity
-
     cout<<"\nEmployee Details:"<<endl;
     obj.Employee::display();
-
     cout<<"\nManager Details:"<<endl;
-    obj.Manager::display();
-
+    obj.Manager::display();    
     return 0;
 }

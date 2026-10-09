@@ -29,6 +29,6 @@ int main(){
     c.getVehicle();
     c.getDetails();
     c.display();
-    cout<<"Sahibdeep Kaur(2514174)";
+    cout<<"Sagar Saini(2514172)";
     return 0;
 }

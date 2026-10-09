@@ -40,6 +40,6 @@ int main(){
     s.getModel();
     s.getSpeed();
     s.display();
-    cout << "\nSahibdeep Kaur (2514174)";
+    cout << "\nSagar Saini (2514172)";
     return 0;
 }
